@@ -1,6 +1,6 @@
 # drop-down
 
-Drop-down menu
+Installs styling and javascript for a drop-down menu that's opened via a click.
 
 ## Install
 
