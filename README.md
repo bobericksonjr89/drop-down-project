@@ -1,6 +1,6 @@
 # drop-down
 
-Installs styling and javascript for a drop-down menu that's opened via a click.
+Installs styling and javascript for a drop-down menu opened via click.
 
 ## Install
 
@@ -10,7 +10,7 @@ $ npm install @bobericksonjr89/drop-down
 
 ## Instructions
 
-- You'll need to access the style sheets, make sure style-loader and css-loader are installed
+- You'll need to access the style sheet, so make sure style-loader and css-loader are installed, and then add to the webpack.config.js file:
 
 ```
 module.exports = {
@@ -25,13 +25,13 @@ module.exports = {
 };
 ```
 
-- import dropBox function and stylesheet, and call it in your javascript
+- import dropDown function and stylesheet, and call it in your javascript
 
 ```
 import { dropDown } from "@bobericksonjr89/drop-down/dropdown.js";
 import "@bobericksonjr89/drop-down/dropdown.css";
 
-dropBox();
+dropDown();
 
 ```
 

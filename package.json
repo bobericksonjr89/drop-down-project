@@ -1,6 +1,6 @@
 {
   "name": "@bobericksonjr89/drop-down",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "type": "module",
   "description": "drop-down menu",
   "main": "index.js",
