@@ -10,19 +10,26 @@ $ npm install @bobericksonjr89/drop-down
 
 ## Instructions
 
-- add CSS stylesheet
+- You'll need to access the style sheets, make sure style-loader and css-loader are installed
 
 ```
-<link
-      rel="stylesheet"
-      href="/node_modules/@bobericksonjr89/drop-down/dropdown.css"
-    />
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+};
 ```
 
-- import dropBox function, and call it in your javascript
+- import dropBox function and stylesheet, and call it in your javascript
 
 ```
-import { dropBox } from "./dropbox.js";
+import { dropDown } from "@bobericksonjr89/drop-down/dropdown.js";
+import "@bobericksonjr89/drop-down/dropdown.css";
 
 dropBox();
 

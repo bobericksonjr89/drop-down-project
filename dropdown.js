@@ -1,4 +1,4 @@
-export function dropBox() {
+export function dropDown() {
   const menu = document.querySelectorAll(".drop-down__main");
   menu.forEach((dropDown) =>
     dropDown.addEventListener("click", () => {
