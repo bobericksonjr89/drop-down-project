@@ -41,8 +41,6 @@ dropBox();
 - List items get class "drop-down\_\_item"
 - Submenu buttons get class "drop-down\_\_link"
 
-## Example
-
 ```
 <div class="drop-down">
       <button class="drop-down__main">Menu</button>
